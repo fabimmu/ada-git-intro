@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 hr{
-
     color: gray;
 }
 .container{
@@ -38,6 +37,9 @@ hr{
 .margin-izq{
     margin-left: 10px;
 }
+.margin-der{
+    margin-right: 10px;
+}
 .margin-top{
     margin-top: 20px;
 }
@@ -60,9 +62,64 @@ hr{
     transition: 0.4s
 }
 .card{
-    background-color: ghostwhite;
+    background-color: white;
     border: 1px solid gray;
     border-radius: 15px;
-    width: 20%;
+    width: 265px;
     height: 170px;
+    margin-bottom: 10px;
 }
+.card4{
+    height: 360px;
+}
+.sec-center{
+    display: flex;
+    justify-content: center;
+}
+.segunda-col{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+.box-head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+
+}
+img{
+    padding: 5px;
+    max-height: 50px;
+}
+.logo1 img{
+    max-height:50 px;
+    width: 50px;
+    padding: 5px;
+    margin-top: 9px;
+}
+.logo2 img{
+    width: 139px;
+    height:35 px;
+    padding: 5px;
+    margin-top: 17px;
+}
+.logo3 img{
+    width: 52px;
+    height: 50px;
+    padding: 5px;
+}
+.logo4 img{
+    width: 156px;
+    height: 45px;
+    padding: 5px;
+    margin-top: 12px;
+}
+.logo5 img{
+    width: 140px;
+    height: 23px;
+    padding: 5px;
+    margin-top: 24px;
+}
+
